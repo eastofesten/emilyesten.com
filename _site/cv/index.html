@@ -1,876 +1,1091 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-  <head>
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="canonical" href="http://localhost:4000/cv/" />
-
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-    <title>
-      
-        CV &middot; Emily Esten
-      
-    </title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
-    <style type="text/css">
-    .wrap-collabsible {
-      margin-bottom: 1.2rem 0;
-    }
-
-    input[type='checkbox'] {
-      display: none;
-    }
-
-    .lbl-toggle {
-      display: inline-block;
-      font-weight: bold;
-      font-family: monospace;
-      font-size: 16.6667px;
-      text-transform: uppercase;
-      text-align: center;
-
-      padding: .5rem;
-
-      color: #FFFFFF;
-      background: #ac4142;;
-
-      cursor: pointer;
-
-      border-radius: 7px;
-      transition: all 0.25s ease-out;
-    }
-
-    .lbl-toggle:hover {
-      color: #7C5A0B;
-    }
-
-    .lbl-toggle::before {
-      content: ' ';
-      display: inline-block;
-
-      border-top: 5px solid transparent;
-      border-bottom: 5px solid transparent;
-      border-left: 5px solid currentColor;
-      vertical-align: middle;
-      margin-right: .7rem;
-      transform: translateY(-2px);
-
-      transition: transform .2s ease-out;
-    }
-
-    .toggle:checked + .lbl-toggle::before {
-      transform: rotate(90deg) translateX(-3px);
-    }
-
-    .collapsible-content {
-      max-height: 0px;
-      overflow: hidden;
-      transition: max-height .25s ease-in-out;
-    }
-
-    .toggle:checked + .lbl-toggle + .collapsible-content {
-      max-height: 100vh;
-    }
-
-    .toggle:checked + .lbl-toggle {
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-
-    .collapsible-content .content-inner {
-      background: rgba(250, 224, 66, .2);
-      border-bottom: 1px solid rgba(250, 224, 66, .45);
-      border-bottom-left-radius: 7px;
-      border-bottom-right-radius: 7px;
-      padding: .5rem 1rem;
-    }
-</style>
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
-                                   <link rel="shortcut icon" href="/assets/favicon.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  </head>
-
-  <body class="theme-base-08">
-
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">
-          Emily Esten
-        </a>
-      </h1>
-      <p class="lead">digital projects for the public</p>
-    </div>
-
-    <!-- Sidebar -->
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/cv">CV</a>
-      <a class="sidebar-nav-item" href="/digital">Digital</a>
-      <a class="sidebar-nav-item" href="/public">Public</a>
-      <a class="sidebar-nav-item" href="/writing">Writing</a>
-      <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
-      <a class="sidebar-nav-item" href="/blog">Blog</a>
-    </nav>
-
-    <!-- Share sheet -->
-    <div class="sharesheet">
-      <a href="https://www.twitter.com/sheishistoric" target="_blank"><i class="fa fa-fw fa-twitter shareicon"></i></a>
-      <a href="https://www.github.com/sheishistoric" target="_blank"><i class="fa fa-fw fa-github shareicon"></i></a>
-      <a href="/atom.xml" target="_blank"><i class="fa fa-fw fa-rss shareicon"></i></a>
-      <!--<a id="showsearch"><i class="fa fa-fw fa-search shareicon"></i></a>-->
-      <a id="showmailbox"><i class="fa fa-fw fa-envelope-o shareicon"></i></a>
-        <div id="mailbox">Write me at estenemily [at] gmail.com</div>
-        <!--<div id="search">
-          <a id="searchsite">
-            <form method="get" action="https://duckduckgo.com/" target="_blank">
-              <input type="search" name="q" maxlength="255" placeholder="DuckDuckGo search">
-              <input type="hidden" name="sites" value="jeffreymoro.com">
-              <input type="hidden" name="k7" value="#faf8f8">
-              <input type="hidden" name="kj" value="#b33">
-              <input type="hidden" name="ky" value="#fafafa">
-              <input type="hidden" name="kx" value="b">
-              <input type="hidden" name="ko" value="-1">
-              <input type="hidden" name="k1" value="-1">
-              <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
-            </form>
-          </a>
-        </div>-->
-    </div>
-    <div class="credit">
-      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
-    </div>
-  </div>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/texture/assets/css/style.css">
+<title>Emily Esten</title>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Emily Esten | Personal website of Emily Esten</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Emily Esten" />
+<meta name="author" content="eastofesten" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Personal website of Emily Esten" />
+<meta property="og:description" content="Personal website of Emily Esten" />
+<link rel="canonical" href="http://localhost:4000/texture/cv/" />
+<meta property="og:url" content="http://localhost:4000/texture/cv/" />
+<meta property="og:site_name" content="Emily Esten" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Emily Esten" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"eastofesten"},"description":"Personal website of Emily Esten","headline":"Emily Esten","url":"http://localhost:4000/texture/cv/"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+	<header class="texture-blue">
+		<div class="container"><div class="navbar">
+	<ul>
+		
+		<a href="/texture/"><li  >Home</li></a>
+		
+		<a href="/texture/cv"><li  >CV</li></a>
+		
+	</ul>
+</div></div><div class="container">
+	<h1>Emily Esten</h1>
+	<h2>digital projects for the public</h2>
+	<ul class="social"><a href="https://github.com/eastofesten"><li><i class="icon-github-circled"></i></li></a><a href="https://linkedin.com/in/emilyesten"><li><i class="icon-linkedin-squared"></i></li></a><a href="https://bsky.app/profile/estene.bsky.social"><li><i class="fa-brands fa-square-bluesky"></i></li></a><a href="https://www.broadstreetreview.com/about/people/emily-esten"><li><i class="fa-solid fa-masks-theater"></i></li></a></ul>
 </div>
-
-
-    <div class="content container">
-      <div class="page">
-  <h1 class="page-title">CV</h1>
-  <hr />
-  <div class="tabsWrapper clear" id="t0">
-<ul class="tabs">
-    <li>
-        <a href="#t1">ABOUT ME</a></li>
-    <li>
-        <a href="#t2">EDUCATION</a></li>
-    <li>
-        <a href="#t3">EMPLOYMENT</a></li>
-    <li>
-        <a href="#t4">PUBLICATIONS</a></li>
-    <li>
-        <a href="#t5">CONFERENCES</a></li>
-    <li>
-        <a href="#t7a">WORKSHOPS LED</a></li>
-    <li>
-        <a href="#t8">PROJECTS</a></li>
-    <li>
-        <a href="#t11">EXHIBITIONS</a></li>
-    <li>
-        <a href="#t6">AWARDS + GRANTS</a></li>
-    <li>
-        <a href="#t9">SERVICE</a></li>
-    <li>
-        <a href="#t10">SKILLS</a></li>
-<!--     <li id="pdftab">
-        <a href="/404">PDF</a></li>-->
-</ul>
-</div>
-
-<!-- 1: Profile -->
-<div class="clear">
-<h2><span id="t1"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>About Me</h2>
-    <div class="column-last column-bottom clear">
-        <p>I am a digital scholar, a public humanities practitioner, and public historian. I’m currently the Judaica Digital Humanities Project Coordinator for Penn Libraries and assist with Contingent Magazine.</p>
-    </div>
-</div>
-
-<!-- 2: Education -->
-<div class="clear">
-    <h2><span id="t2"></span><a href="#t2"><i class="fa fa-chevron-up"></i></a> Education</h2>
-    
-        <div class="one-fourth column-bottom clear subcat">2018</div>
-        <div class="three-fourths column-last column-bottom clear">
-            <b>Brown University</b><br/>
-            <span class="cv-meta">MA, Public Humanities • </span>
-        </div>
-    
-        <div class="one-fourth column-bottom clear subcat">2016</div>
-        <div class="three-fourths column-last column-bottom clear">
-            <b>University of Massachusetts Amherst</b><br/>
-            <span class="cv-meta">BA, History; BA, Digital Humanities • magna cum laude, Phi Beta Kappa</span>
-        </div>
-    
-</div>
-
-<!-- 3: Employment -->
-<div class="clear">
-<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
-
-<div class="one-fourth column-bottom clear subcat">2019–Present</div>
-<div class="three-fourths column-last column-bottom clear">
-    <b>Judaica Digital Humanities Coordinator</b><br/>
-    <span class="cv-meta">Penn Libraries.</span>
-    <br />
-</div>
-
-<div class="one-fourth column-bottom clear subcat">2018–2019</div>
-<div class="three-fourths column-last column-bottom clear">
-    <b>Researcher and Collaborator, Mapping Violence</b><br/>
-    <span class="cv-meta">Brown University, Department of American Studies.</span>
-    <br />
-</div>
-
-<div class="one-fourth column-bottom clear subcat">2017</div>
-<div class="three-fourths column-last column-bottom clear">
-    <b>Teaching Assistant</b><br/>
-    <span class="cv-meta">Brown University, School of Professional Studies.</span>
-    <br />
-</div>
-
-<div class="one-fourth column-bottom clear subcat">2016-2017</div>
-<div class="three-fourths column-last column-bottom clear">
-    <b>Digital Projects Assistant</b><br/>
-    <span class="cv-meta">Brown University, Department of American Studies.</span>
-    <br />
-</div>
-
-</div>
-
-<div class="clear">
-<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Public Humanities Employment</h2>
-
-    <div class="one-fourth column-bottom clear subcat">2019–Present</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Web Manager</b><br/>
-        <span class="cv-meta">Contingent Magazine</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2018</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Exhibition Researcher</b><br/>
-        <span class="cv-meta">New Bedford Fishing Heritage Center</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2018</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Humanities Scholar</b><br/>
-        <span class="cv-meta">New Bedford Ballet Foundation</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2018</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Digital Humanities Fellow</b><br/>
-        <span class="cv-meta">Edward M. Kennedy Institute for the United States Senate</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2016</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Smithsonian Center for Learning and Digital Access</b><br/>
-        <span class="cv-meta">Evaluation Assistant</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2016–2018</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Park Ambassador (Volunteer)</b><br/>
-        <span class="cv-meta">New Bedford Whaling National Historical Park</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2016</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Collections and Curation Management Intern</b><br/>
-        <span class="cv-meta">Edward M. Kennedy Institute for the United States Senate</span>
-        <br />
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2015</div>
-    <div class="three-fourths column-last column-bottom clear">
-      <b>Visitor Services Intern</b><br/>
-        <span class="cv-meta">Rhode Island Historical Society</span>
-        <br />
-    </div>
-
-</div>
-
-<!-- 4: Writing -->
-<div class="clear">
-<h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a>Publications</h2>
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Journals</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Scribes, Scholars, and Scripts: Reviewing Data from <i>Scribes of the Cairo Geniza</i>&rdquo;</b><br/>
-            
-            <span class="cv-meta">(forthcoming) • <i>Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://doi.org/10.5334/johd.15" target="_blank"><b>&ldquo;Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900.&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">July 2020 • <i>Journal of Open Humanities Data</i></span>
-        </div>
-
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://repository.upenn.edu/cairogeniza/3/" target="_blank"><b>&ldquo;Who are the #GenizaScribes: 2019-2020 Community Survey Report&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">February 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://documents.alexanderstreet.com/d/1010113831" target="_blank"><b>&ldquo;Biographical Sketch of Helen Emerson&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">January 2020 • <i>Biographical Database of NAWSA Suffragists, 1890-1920</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://repository.upenn.edu/cairogeniza/2/" target="_blank"><b>&ldquo;Scribes of the Cairo Geniza: Reviewing Sorting Phase Data&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">April 2019 • <i>Penn Libraries, University of Pennsylvania</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf" target="_blank"><b>&ldquo;Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">August 2018 • <i>Smithsonian Center for Learning and Digital Access</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12" target="_blank"><b>&ldquo;Revisualizing the Crystal Palace (Cataloging History, Part 4)&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">January 5, 2018 • <i>Medium</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e" target="_blank"><b>&ldquo;Catalog as Book, File, and Database (Cataloging History, Part 3)&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">May 1, 2017 • <i>Medium</i></span>
-        </div>
-
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Datasets</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://repository.upenn.edu/cairogeniza/1/" target="_blank"><b>&ldquo;Union List of Nineteenth-Century Jewish Serials Published in the United States&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">January 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://repository.upenn.edu/cairogeniza/1/" target="_blank"><b>&ldquo;Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">January 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://repository.upenn.edu/judaica_americana/2/" target="_blank"><b>&ldquo;Dataset for Judaica Americana: A Bibliography of Publications to 1900&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">October 2019 • <i>Penn Libraries, University of Pennsylvania</i></span>
-        </div>
-
-
-</div>
-
-<!-- 5: Talks -->
-<div class="clear">
-<h2><span id="t5"></span><a href="#t5"><i class="fa fa-chevron-up"></i></a> Conferences</h2>
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Conference Talks</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians" target="_blank"><b>&ldquo;Digital Public Humanities for Historians&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">Nov. 2018 • American Studies Association • Atlanta, Georgia, <i></i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;#Resistance: Rogue Government Twitter and Digital Political Activism&rdquo;</b><br/>
-            
-            <span class="cv-meta">Oct. 2017 • Society for Comparative Literature and the Arts • Baltimore, Maryland, <i></i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Courage, Perseverance, and Trust: The Manjiro Story&rdquo;</b><br/>
-            
-            <span class="cv-meta">May 2018 • UMass Graduate History Association • Amherst, Massachusetts, <i></i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Charity as Coercion: The Ladies’ Branch of the New Bedford Port Society, 1833-1880&rdquo;</b><br/>
-            
-            <span class="cv-meta">April 2016 • University of Massachusetts Amherst • Amherst, Massachusetts, <i>Massachusetts Undergraduate Research Conference</i></span>
-        </div>
-
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Roundtables & Panels</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://judaicadh.library.upenn.edu/blog/ajl2020/" target="_blank"><b>&ldquo;Judaica Digital Humanities at the Penn Libraries Overview&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">July 2020 • Association of Jewish Libraries • Virtual, Panel, <i>AJL2020</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://dh2020.adho.org" target="_blank"><b>&ldquo;Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">July 2020 • Alliance of Digital Humanities Organizations • Ottawa, Ontario//Virtual, Panel, <i>DH2020</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Interpreting Jewish History in Museums and Public History Settings&rdquo;</b><br/>
-            
-            <span class="cv-meta">March 2020 • National Council for Public History • Atlanta, Georgia//Virtual, Twitter Chat, <i>NCPH 2020</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://medium.com/@judaicadh/mcn2019-cultivating-community-with-the-cairo-geniza-eaf5182c28cd" target="_blank"><b>&ldquo;Cultivating Community with the Cairo Geniza&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">Nov. 2019 • Museum Computer Network • San Diego, California, Lightning Talk, <i>MCN 2019</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Mapping Segregated Histories: Digital Research and Visualizations for the Public&rdquo;</b><br/>
-            
-            <span class="cv-meta">Nov. 2018 • American Studies Association • Atlanta, Georgia, Roundtable, <i>ASA2018</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://dh2018.adho.org/en/cataloging-history-revisualizing-the-1853-new-york-crystal-palace/" target="_blank"><b>&ldquo;Cataloging History: Revisualizing the 1853 New York Crystal Palace&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">June 2018 • Alliance of Digital Humanities Organizations • Mexico City, Mexico, Poster, <i>DH2018</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Public Humanities: Mapping Violence&rdquo;</b><br/>
-            
-            <span class="cv-meta">May 2018 • Brown University, Department of American Studies • Providence, Rhode Island, Poster, <i>Brown University American Studies Graduate Student Conference</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>&ldquo;Mapping Violence&rdquo;</b><br/>
-            
-            <span class="cv-meta">January 2018 • Northeastern University School of Law • Boston, Massachusetts, Workshop Presentation, <i>The Digital Red Record: The Promises and Perils of Digitally Documenting Historic Racial Violence</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://docs.google.com/document/d/13B0UenBTBd5Az1rLsYhEI7zz3mhQXUVEhGLGdNAPZf0/" target="_blank"><b>&ldquo;Building a Feminist Future: On (Digital) Pedagogical Praxis&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">November 2017 • HASTAC • Orlando, Florida, Panel, <i>HASTAC 2017</i></span>
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="http://ncph.org/wp-content/uploads/2017/02/Meeting-in-the-Middle-case-statements.pdf" target="_blank"><b>&ldquo;Meeting in the Middle: Community Engagement in a Digital World&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">April 2017 • National Council for Public History • Indianapolis, Indiana, Working Group, <i>NCPH 2017</i></span>
-        </div>
-
-
-</div>
-
-<!-- 7a: Workshops Led -->
-<div class="clear">
-<h2><span id="t7a"></span><a href="#t7a"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
-
-
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>Omeka Orientation: How to Use This Web Publishing Platform</b>
-             <br/>
-            <span class="cv-meta">University of Pennsylvania Libraries. September 2020.</span>
-        </div>
-
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://judaicadh.library.upenn.edu/blog/2020-07-06-digital-scholarship-bootcamp/" target="_blank"><b>Data Wrangling with Google Sheets</b></a>
-             <br/>
-            <span class="cv-meta">University of Pennsylvania Libraries . July 2020.</span>
-        </div>
-
-</div>
-
-<!-- 8: Projects -->
-<div class="clear">
-<h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Projects</h2>
-
-
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Digital Projects</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="https://kislakcenter.github.io/covid-19-resources/"><b>Kislak COVID-19 Resources</b></a> • <small>Collaborator. 2019-Present.</small>
-          <br />
-    <!--       <span class="cv-meta">A custom Penn Libraries Jekyll theme and rapid response site focused on documenting available resources from special collections at University of Pennsylvania Libraries</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="morais.exhibits.library.upenn.edu"><b>Sabato Morais Digital Repository</b></a> • <small>Project Manager/Developer. 2020-Present.</small>
-          <br />
-    <!--       <span class="cv-meta"></span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="singermanja2.exhibits.library.upenn.edu"><b>Judaica Americana</b></a> • <small>Project Manager/Developer. 2019-Present.</small>
-          <br />
-    <!--       <span class="cv-meta">The digital second edition of Judaica Americana makes searchable the 9,000 entries in the print edition. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901.</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="https://scribesofthecairogeniza.org"><b>Scribes of the Cairo Geniza</b></a> • <small>Project Manager. 2019-Present.</small>
-          <br />
-    <!--       <span class="cv-meta">Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="https://contingentmagazine.org"><b>Contingent Magazine</b></a> • <small>Site Designer. 2018-Present.</small>
-          <br />
-    <!--       <span class="cv-meta">At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="http://mappingviolence.com"><b>Mapping Violence</b></a> • <small>Researcher & Collaborator. 2017-2018.</small>
-          <br />
-    <!--       <span class="cv-meta">Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="http://cds.library.brown.edu/projects/crystalpalace/"><b>Visualizing the Crystal Palace</b></a> • <small>PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh. 2017–18.</small>
-          <br />
-    <!--       <span class="cv-meta">Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub</span>  -->
-          
-        </div>
-
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-          
-          <a href="https://www.tiki-toki.com/timeline/entry/690396/Inside-the-Lost-Museum/"><b>Inside the Lost Museum</b></a> • <small>PI with Steven Lubar. 2016.</small>
-          <br />
-    <!--       <span class="cv-meta">An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press)</span>  -->
-          
-        </div>
-
-
-<div class="clear">
-<h2><span id="t3"></span><a href="#t11"><i class="fa fa-chevron-up"></i></a>Exhibitions</h2>
-
-
-  
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Exhibitions</em></div>
-    
-    <div class="three-fourths column-last column-bottom clear">
-      
-      <b>Wheelhouse Technology from Sounding Leads to Satellites</b> • <small>Researcher. 2019.</small>
-      <br />
-      <span class="cv-meta">Over the past century, new technologies have allowed New Bedford’s fleet to arrive on the grounds faster, fish safer, and communicate more easily. But at what cost? This exhibit considers the evolution and impact of technological change on the industry, the community, and the fish. In addition to considering the science behind devices such as EPIRB, SONAR, and LORAN, the exhibit and programs will consider topics such as Technology & Privacy, Dependence on Technology, and Technology & Sustainability..</span>
-      
-    </div>
-  
-
-  
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-    <div class="three-fourths column-last column-bottom clear">
-      
-      <b>2018 U.S. Senate Election Map</b> • <small>Technical Lead. 2018.</small>
-      <br />
-      <span class="cv-meta">This technology-driven projected display immersed visitors in the 2018 U.S. Senate Elections, where at total of 35 seats are up for election. Of the 35 seats up for election, 23 are held by Democrats, 8 by Republicans, and 2 by Independents. Projected onto the institute’s exhibit hall walls and available on tablets, visitors explore the races allowing the candidates and races in each of the 33 states, and learned about how the balance of power shifts between political parties each election..</span>
-      
-    </div>
-  
-
-  
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-    
-    <div class="three-fourths column-last column-bottom clear">
-      
-      <b>Senate Staff Office</b> • <small>Technical Lead. 2018.</small>
-      <br />
-      <span class="cv-meta">The Senate Staff Office exhibit features the exemplary work of Senator Kennedy’s staff, and what is involved in working in a United States Senator’s office. Through a mixture of hands-on activities, video features, and office artifacts, visitors have the opportunity to hear firsthand stories from Senator Edward M. Kennedy’s staff and take on the role of those assigned with completing daily Senate office responsibilities. The interactive exhibit highlights some of the key roles in the Washington, D.C. office and the home state office, including the jobs of scheduler, chief of staff, legislative assistant, and press secretary..</span>
-      
-    </div>
-  
-
-</div>
-
-<!-- 6: Awards -->
-<div class="clear">
-<h2><span id="t6"></span><a href="#t6"><i class="fa fa-chevron-up"></i></a> Awards + Grants</h2>
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>MCN Scholar</b><br/>
-                <span class="cv-meta">For Museum Computer Network Annual Conference 2019</span><br/>
-                <div class="context" id="award1" style="display:none;"><p>Each year, the MCN Scholarship Program awards scholarships to 15 qualified applicants from the cultural sector to attend the MCN Annual Conference</p></div>
-            
-        </div>
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>Humanities Intensive Learning and Teaching (HILT) Graduate Student Scholarship</b><br/>
-                <span class="cv-meta">For attendance at the HILT Institute at University of Pennsylvania 2017</span><br/>
-                <div class="context" id="award2" style="display:none;"><p></p></div>
-            
-        </div>
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>New England Museums Association Professional Development Award</b><br/>
-                <span class="cv-meta">For attendance at the NEMA 2016 conference 2016</span><br/>
-                <div class="context" id="award3" style="display:none;"><p></p></div>
-            
-        </div>
-    
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>HASTAC Scholars Fellow</b><br/>
-                <span class="cv-meta">The HASTAC Scholars program is a collective of graduate and undergraduate students who are engaged with innovative projects and research at the intersection of digital media & learning, 21st century education, the digital humanities, and technology in the arts, humanities and sciences 2016-2018</span><br/>
-                <div class="context" id="award4" style="display:none;"><p></p></div>
-            
-        </div>
-    
-</div>
-
-<!-- 9: Membership + Service -->
-<div class="clear">
-<h2><span id="t9"></span><a href="#t9"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
-        <div class="one-fourth column-bottom clear subcat">Membership</div>
-            <div class="three-fourths column-last column-bottom clear">
-                
-                    <b>Member</b> • <span class="cv-meta">Museum Computer Network. 2019-Present.</span><br/>
-                
-                    <b>Member</b> • <span class="cv-meta">Association for Computers and the Humanities. 2018-Present.</span><br/>
-                
-                    <b>Member</b> • <span class="cv-meta">Fembot Collective. 2017-Present.</span><br/>
-                
-                    <b>Member</b> • <span class="cv-meta">National Council for Public History. 2016-Present.</span><br/>
-                
-            </div>
-        <div class="one-fourth column-bottom clear subcat">Service</div>
-            <div class="three-fourths column-last column-bottom clear">
-                
-                    <b>Organizing Committee Member, KeystoneDH 2020 (postponed due to COVID-19)</b> • <span class="cv-meta">Keystone DH. 2019–20.</span><br/>
-                
-                    <b>Programming and Scholarship Committee Member, ACH 2019</b> • <span class="cv-meta">Association for Computers and the Humanities. 2018–19.</span><br/>
-                
-                    <b>Board Member</b> • <span class="cv-meta">Somerset Cultural Council. 2016-2018.</span><br/>
-                
-            </div>
-</div>
-
-<!-- 10: Skills -->
-<div class="clear">
-<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills & Training</h2>
-
-<div class="one-fourth column-bottom clear subcat">Skills</div>
-    <div class="three-fourths column-last column-bottom clear">
-        
-            <b>Languages</b> • <span class="cv-meta">Spanish (conversational).</span><br/>
-        
-            <b>Computer-Adjacent Languages</b> • <span class="cv-meta">HTML, CSS, Jekyll + Liquid templating (reading), Python (reading), Swift (reading).</span><br/>
-        
-            <b>Social Media</b> • <span class="cv-meta">Twitter, Facebook, Instagram, Tumblr, HootSuite, TweetDeck.</span><br/>
-        
-            <b>Content Management</b> • <span class="cv-meta">WordPress, Drupal, Wikia, Omeka.</span><br/>
-        
-            <b>Jack of All Trades</b> • <span class="cv-meta">Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe Illustrator.</span><br/>
-        
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">Trainings</div>
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <b>Jekyll Working Group</b> • <span class="cv-meta">University of Pennsylvania Libraries. 2019-Present.</span><br/>
-            
-                <b>Python for Humanists Working Group</b> • <span class="cv-meta">University of Pennsylvania Libraries. 2019-Present.</span><br/>
-            
-                <b>Python for Humanists</b> • <span class="cv-meta">HILT (Humanities Intensive Learning & Training). June 2018.</span><br/>
-            
-                <b>Introduction to Data Analysis in R for #MusetechRs</b> • <span class="cv-meta">Museum Computer Network. November 2019.</span><br/>
-            
-                <b>Experimental Sound Design for Podcasting and Video</b> • <span class="cv-meta">AS220 Media Lab. November 2018.</span><br/>
-            
-        </div>
-
-</div>
-
-</div>
-
-
-      <div class="revision">
-        <small><i><a href="https://github.com/jeffreymoro/jeffreymoro-dot-com/commits/master/cv.html"><i class="fa fa-refresh" aria-hidden="true"></i> revision history for this page</a></i></small>
-      </div>
-    </div>
-
-  <!-- JavaScript -->
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="/assets/js/myjs.js"></script>
-  <script src="/assets/js/bigfoot.min.js"></script>
-  <script type="text/javascript">
-            $.bigfoot({
-                actionOriginalFN: "ignore"
-            });
-  </script>
-
-  <!-- Custom JavaScript files set in YAML front matter -->
-  
-  
-  </body>
+</header>
+	<main>
+		<div class="container">
+			<ul class="posts"><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/sedls/">
+				<h2 class="post-title">Southeast Data Librarian Symposium</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 3, 2022</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/nli-curators/">
+				<h2 class="post-title">NLI Curators Conference Draft</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 3, 2021</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/nempn/">
+				<h2 class="post-title">Joining the National Emerging Museum Professionals Network</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 14, 2020</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/jodh/">
+				<h2 class="post-title">Digital Second Edition of Judaica Americana</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 30, 2020</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/ajl/">
+				<h2 class="post-title">Association of Jewish Libraries</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 30, 2020</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/singermanja2/">
+				<h2 class="post-title">Digital Second Edition of Judaica Americana</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 30, 2020</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/posts/public-humanities-blog/">
+				<h2 class="post-title">“A worthy thing to do:” Alongside Emily Esten (MA’18) on some paths taken</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 15, 2020</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/i-only-make-bots-for-the-mountain-goats/">
+				<h2 class="post-title">i only make bots for the mountain goats</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 16, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/readings-from-18-spring-semester/">
+				<h2 class="post-title">Readings from &amp;#8217;18 Spring Semester</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 19, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/mastering-the-thumbaround/">
+				<h2 class="post-title">Mastering the Thumbaround</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 25, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/digital-media-and-virtual-performance/self-directed-learning-assignment/">
+				<h2 class="post-title">Self-Directed Learning Assignment</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 16, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/critical-annotation-of-miller-2017/">
+				<h2 class="post-title">Critical Annotation of Miller 2017</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 9, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/practice-reflection-2-show-choir-glee-and-learning-to-dance-again/">
+				<h2 class="post-title">Practice Reflection #2: Show Choir, GLEE, and Learning to Dance Again</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 3, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/critical-annotation-of-foster/">
+				<h2 class="post-title">Critical Annotation of Foster</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 19, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/critical-annotation-of-miller/">
+				<h2 class="post-title">Critical Annotation of Miller</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 26, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/interview-with-women-and-technology-at-brown/">
+				<h2 class="post-title">Interview with Women and Technology at Brown</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 26, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/practice-reflection-1-meditation-apps/">
+				<h2 class="post-title">Practice Reflection #1: Meditation Apps</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 19, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/critical-annotation-of-boellstorff/">
+				<h2 class="post-title">Critical Annotation of Boellstorff</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 5, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/beartoursbyemily-rating-the-public-art-of-brown-universitys-mascot/">
+				<h2 class="post-title">#BearToursByEmily: Rating the Public Art of Brown University’s Mascot</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 17, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/fantastic-places-unhuman-humans-4-lessons-from-taing-online/">
+				<h2 class="post-title">Fantastic Places, Unhuman Humans: 4 Lessons from TAing Online</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 17, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/revisualizing-the-crystal-palace-cataloging-history-part-4/">
+				<h2 class="post-title">Revisualizing the Crystal Palace: Cataloging History, Part 4</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 6, 2018</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/best-of-2017/">
+				<h2 class="post-title">Best of 2017</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 31, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/readings-from-fall-17-semester/">
+				<h2 class="post-title">Readings From Fall &amp;#8217;17 Semester</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 22, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/twitter-chat-public-humanities-and-public-scholarship/">
+				<h2 class="post-title">Twitter Chat: Public Humanities and Public Scholarship</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 3, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-degrassi-franchise-on-the-teenage-experience/">
+				<h2 class="post-title">The Degrassi Franchise on the Teenage Experience</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 1, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/what-i-learned-during-my-summer-practicum-on-escape-reevaluation-and-being-a-public-human/">
+				<h2 class="post-title">What I Learned During My Summer Practicum: On Escape, Reevaluation, and Being a Public Human</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 16, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/hindsight-is-always-2020/">
+				<h2 class="post-title">&amp;#8220;Hindsight Is Always 20/20&amp;#8221;</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jul 2, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/learning-to-extract-understand-twitter-data/">
+				<h2 class="post-title">Learning to Extract &amp;#038; Understand Twitter Data</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 28, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/the-founding-of-stars-hollow-glassberg-on-gilmore-girls-part-one/">
+				<h2 class="post-title">The Founding of Stars Hollow: Glassberg on Gilmore Girls (Part One)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 11, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/six-museums-five-art-galleries-one-zoo/">
+				<h2 class="post-title">Six Museums, Five Art Galleries, One Zoo</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 4, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/dc-practicum-2017/visiting-the-hirshhorn/">
+				<h2 class="post-title">Visiting the Hirshhorn</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 28, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/chapter-3-the-atlanta-compromise-reacting-to-the-past/">
+				<h2 class="post-title">Chapter 3: The Atlanta Compromise, Reacting to the Past</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 8, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/a-day-of-public-humanizing/">
+				<h2 class="post-title">A Day of Public Humanizing</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 5, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/catalog-as-book-file-and-database-cataloging-history-part-3/">
+				<h2 class="post-title">Catalog as Book, File, and Database: Cataloging History, Part 3</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 2, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/calling-something-a-dataset-visualizing-the-crystal-palace/">
+				<h2 class="post-title">Calling Something a Dataset: Visualizing the Crystal Palace</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 1, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/meeting-in-the-middle-a-report-on-the-2017-meeting-of-the-national-council-on-public-history/">
+				<h2 class="post-title">“Meeting in the Middle”: A Report on the 2017 Meeting of the National Council on Public History</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 25, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/toby-ziegler-the-west-wing-and-governments-role-in-culture/">
+				<h2 class="post-title">TOBY ZIEGLER, THE WEST WING, AND GOVERNMENT’S ROLE IN CULTURE</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 22, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-sustainability-resilience-futurists/">
+				<h2 class="post-title">AMST 2650: Sustainability &amp;#038; Resilience &amp;#038; Futurists</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 11, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-tldr-vagnone-is-right-but-is-this-visionary/">
+				<h2 class="post-title">AMST 2650: TL;DR: Vagnone is Right, but is this Visionary?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 3, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/digital-storytelling-its-britney-bitch-commentary-on-distortion-in-spearss-use-of-social-media/">
+				<h2 class="post-title">Digital Storytelling: It’s Britney, Bitch: Commentary on Distortion in Spears’s Use of Social Media</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 29, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-non-object-based-cultural-appropriation/">
+				<h2 class="post-title">AMST 2650: Non-Object Based Cultural Appropriation (?)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 22, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-a-failed-performance-of-live-reading-fuscos-the-other-history-of-intercultural-performance/">
+				<h2 class="post-title">AMST 2650: A (Failed) Performance of Live Reading Fusco&amp;#8217;s “The Other History of Intercultural Performance”</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 14, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-memorial-mania-on-college-campuses/">
+				<h2 class="post-title">AMST 2650: Memorial Mania on College Campuses?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 7, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-ramblings-re-hamilton-founding-fathers-fandom-and-myth-as-a-framework/">
+				<h2 class="post-title">AMST 2650: Ramblings Re: HAMILTON, Founding Fathers Fandom, and Myth as a Framework(?)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 28, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-making-museums-public-vs-making-museum-publics/">
+				<h2 class="post-title">AMST 2650: Making Museums Public vs. Making Museum Publics</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 14, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/amst-2650-providence-the-creative-capital-its-creative-capital/">
+				<h2 class="post-title">AMST 2650: Providence: The Creative Capital &amp;#038; its Creative Capital</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 8, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/hastac-talking-through-ncph-2017/">
+				<h2 class="post-title">HASTAC: Talking through NCPH 2017</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 2, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/hastac-scholars/">
+				<h2 class="post-title">HASTAC Scholars:</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 23, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/three-little-words-2017/">
+				<h2 class="post-title">three little words (2017)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 1, 2017</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/best-of-2016/">
+				<h2 class="post-title">Best of 2016</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 31, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/edsurge/ubuntu-towards-a-socially-responsible-study-abroad-program/">
+				<h2 class="post-title">Ubuntu: Towards a Socially Responsible Study Abroad Program</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 21, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/graduate/edsurge/maintaining-youthfulness-in-academia/">
+				<h2 class="post-title">Maintaining Youthfulness in Academia</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 20, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/my-year-with-lin-manuel-miranda/">
+				<h2 class="post-title">My Year with Lin-Manuel Miranda</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 16, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-guidebook-in-reverse/">
+				<h2 class="post-title">A Guidebook in Reverse</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 19, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/massurc-the-snake-fighting-portion-of-your-defense/">
+				<h2 class="post-title">MassURC: The Snake-Fighting Portion of Your Defense</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 12, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/myresearchstory-pt-33-whats-next/">
+				<h2 class="post-title">#MyResearchStory, pt. 3/3: What&amp;#8217;s Next?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 5, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/myresearchstory-pt-23-methodology/">
+				<h2 class="post-title">#MyResearchStory, pt. 2/3: Methodology</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 30, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/myresearchstory-pt-13-objective/">
+				<h2 class="post-title">#MyResearchStory, pt. 1/3: Objective</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 13, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-moral-voyage-bdic-and-the-senior-summary/">
+				<h2 class="post-title">A Moral Voyage: BDIC and the Senior Summary</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 2, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-moral-voyage-revisions-revisions-revisions/">
+				<h2 class="post-title">A Moral Voyage: Revisions, Revisions, Revisions</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 29, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-moral-voyage-five-college-life/">
+				<h2 class="post-title">A Moral Voyage: Five College Life</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 16, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-moral-voyage-take-a-break/">
+				<h2 class="post-title">A Moral Voyage: Take a Break</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 9, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/lectures/notes-on-itmuma/">
+				<h2 class="post-title">Notes on #ITMUMA</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 2, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/a-moral-voyage-the-search-for-a-study-spot/">
+				<h2 class="post-title">A Moral Voyage: The Search for a Study Spot</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 31, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/thesis/a-moral-voyage-the-wall/">
+				<h2 class="post-title">A Moral Voyage: The Wall</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 30, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/commonwealth-honors-college/9340/">
+				<h2 class="post-title">A Moral Voyage: What&amp;#8217;s in the Bag (College Senior Edition)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 25, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/5-things-im-looking-forward-to-this-semester/">
+				<h2 class="post-title">5 Things I&amp;#8217;m Looking Forward To This Semester</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 23, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/applied-humanities-learning-lab/">
+				<h2 class="post-title">Applied Humanities Learning Lab</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 22, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/thesis/rev-moses-how/">
+				<h2 class="post-title">Rev. Moses How</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 4, 2016</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/best-of-2015/">
+				<h2 class="post-title">Best of 2015</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 31, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/classics-301/in-mans-memory-lay-a-form-of-immortality-legacy-in-roman-culture-architecture-and-archaeology/">
+				<h2 class="post-title">Ancient Material Worlds: “In Man’s Memory Lay A Form of Immortality”</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 12, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-working-over-winter-break/">
+				<h2 class="post-title">A Moral Voyage: Working Over Winter Break</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 1, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/on-my-20th-listen-to-hamilton-broadway-early-american-republic/">
+				<h2 class="post-title">On My 20th Listen to Hamilton: Broadway &amp;#038; Early American Republic</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 26, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-proposal-part-2-the-syllabus/">
+				<h2 class="post-title">A Moral Voyage: Proposal, Part 2 &amp;#8211; The Syllabus</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 22, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/thesis/how-to-talk-to-people-who-arent-your-advisor-about-your-thesis/">
+				<h2 class="post-title">How To Talk To People Who Aren&amp;#8217;t Your Advisor About Your Thesis</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 22, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-the-proposal-part-i-the-literature-review/">
+				<h2 class="post-title">A Moral Voyage: The Proposal, Part I &amp;#8211; The Literature Review</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 16, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/thesis/do-you-wanna-write-a-thesis/">
+				<h2 class="post-title">Do You Wanna Write A Thesis?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 15, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-selecting-your-committee/">
+				<h2 class="post-title">A Moral Voyage: Selecting Your Committee</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 9, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-making-time/">
+				<h2 class="post-title">A Moral Voyage: Making Time</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 2, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-the-binder/">
+				<h2 class="post-title">A Moral Voyage: The Binder</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 24, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-great-mighty-theme-revised/">
+				<h2 class="post-title">A Great &amp;#038; Mighty Theme (Revised)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 21, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-moral-voyage-mighty-theme/">
+				<h2 class="post-title">A Moral Voyage: Mighty Theme</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 20, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/closing-the-gap-frequently-asked-questions-at-the-john-brown-house-museum/">
+				<h2 class="post-title">Past@Present: Closing the Gap: Frequently Asked Questions at the John Brown House Museum</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Sep 23, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/wrapping-up-spring-semester/">
+				<h2 class="post-title">Wrapping Up Spring Semester</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 31, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/hist-397vw-mill-river-greenway-initiative/">
+				<h2 class="post-title">HIST 397VW: Mill River Greenway Initiative</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 10, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/5-steps-to-a-successful-researchday/">
+				<h2 class="post-title">5 Steps to a Successful #ResearchDay</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 19, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/what-i-learned-about-myself-in-english-302/">
+				<h2 class="post-title">What I Learned About Myself in English 302</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 16, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/tv-isnt-dead-its-just-inactive/">
+				<h2 class="post-title">TV Isn&amp;#8217;t Dead &amp;#8211; It&amp;#8217;s Just Inactive</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 16, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/updates-things-im-doing-things-im-reading/">
+				<h2 class="post-title">Updates: Things I’m Doing &amp;#038; Things I’m Reading</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 5, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/d-fox-harrell-phantasmal-media/">
+				<h2 class="post-title">D. Fox Harrell &amp;#038; Phantasmal Media</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 2, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/museumweek-2015/">
+				<h2 class="post-title">#MuseumWeek 2015</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 29, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/freedom-on-the-move/">
+				<h2 class="post-title">&amp;#8220;Freedom on the Move&amp;#8221;</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 8, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-humanity-factor-of-platforms/">
+				<h2 class="post-title">The &amp;#8220;Humanity Factor&amp;#8221; of Platforms</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 4, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/youtube-is-about-community/">
+				<h2 class="post-title">YouTube Is About Community</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 18, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/a-conditional-love-letter-to-google/">
+				<h2 class="post-title">A Conditional Love Letter to Google</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 18, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/to-the-libraries/">
+				<h2 class="post-title">To The Libraries!</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 15, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/undergraduate/english-302/mcluhan-and-the-message-of-transmedia-adaptations-2/">
+				<h2 class="post-title">McLuhan and the Message of Transmedia Adaptations</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 3, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/2015-a-year-in-resolutions/">
+				<h2 class="post-title">2015: A Year in Resolutions</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 4, 2015</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/2014-a-year-in-review/">
+				<h2 class="post-title">2014: A Year in Review</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 28, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/hometown-memories/">
+				<h2 class="post-title">Hometown Memories</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 14, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/i-was-a-teenage-history-buff/">
+				<h2 class="post-title">I Was A Teenage History Buff</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Dec 7, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/visual-culture-of-print-trip-to-mead-art-museum/">
+				<h2 class="post-title">Visual Culture of Print: Trip to Mead Art Museum</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 23, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/website-review-a-look-at-the-national-womens/">
+				<h2 class="post-title">Website Review: A Look at the National Women&amp;#8217;s History Museum</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 16, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/recap-of-askanarchivist/">
+				<h2 class="post-title">Recap of #AskAnArchivist</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Nov 2, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/living-new-deal/">
+				<h2 class="post-title">Living New Deal</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 26, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/visit-to-umca/">
+				<h2 class="post-title">Visit to UMCA</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 19, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/while-home-for-columbus-day-weekend-i-made-sure/">
+				<h2 class="post-title">While Home For Columbus Day Weekend I Made Sure</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 13, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/i-love-when-i-have-pictures-to-include-this/">
+				<h2 class="post-title">I Love When I Have Pictures To Include This</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Oct 5, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/public-history-my-experience-with-numen/">
+				<h2 class="post-title">Public History: My Experience With Numen</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Sep 28, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/microhistory-with-carlo-ginsburg/">
+				<h2 class="post-title">Microhistory with Carlo Ginsburg</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Sep 22, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/back-to-school/">
+				<h2 class="post-title">Back to School!</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Sep 7, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/interning-at-the-research-library/">
+				<h2 class="post-title">Interning at the Research Library</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Sep 6, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/summer-in-the-library/">
+				<h2 class="post-title">Summer In The Library</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Aug 26, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/went-to-revolutionary-war-weekend-at-fort/">
+				<h2 class="post-title">Went To Revolutionary War Weekend At Fort</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Aug 24, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/ten-things-i-learned-as-an-archives-library/">
+				<h2 class="post-title">Ten Things I Learned As An Archives &amp;#038; Library Intern</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Aug 17, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/portland-with-pictures/">
+				<h2 class="post-title">Portland (With Pictures!)</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jul 27, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/matthew-and-rachel-howland/">
+				<h2 class="post-title">Matthew and Rachel Howland</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jul 21, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/an-update-what-am-i-working-on/">
+				<h2 class="post-title">An Update: What Am I Working On?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jul 20, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/visited-the-morgan-at-the-new-bedford-state-pier/">
+				<h2 class="post-title">Visited The Morgan At The New Bedford State Pier</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 30, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/cwm/">
+				<h2 class="post-title">Cwm</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 28, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/walter-magnes-teller-collection/">
+				<h2 class="post-title">Walter Magnes Teller Collection</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 23, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/mss-131/">
+				<h2 class="post-title">Mss 131</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 22, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/im-getting-better-with-computers/">
+				<h2 class="post-title">I&amp;#8217;m Getting Better With Computers</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 15, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/thatcampne-2014/">
+				<h2 class="post-title">THATCampNE 2014</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 1, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/archives-and-moby-dick/">
+				<h2 class="post-title">Archives and Moby Dick</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jun 1, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/today-i-visited-the-annual-memorial-day-weekend/">
+				<h2 class="post-title">Today I Visited The Annual Memorial Day Weekend</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 24, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/session-proposal-think-different-thatcamp-new/">
+				<h2 class="post-title">Session Proposal: Think Different. | THATCamp New England 2014</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 22, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-open-rehearsalperformance-experience/">
+				<h2 class="post-title">The Open Rehearsal/Performance Experience</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>May 20, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-last-lecture/">
+				<h2 class="post-title">The Last Lecture</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 27, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/slightly-off-topic-digital-humanities/">
+				<h2 class="post-title">Slightly Off-Topic: Digital Humanities</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 20, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/are-you-a-researcher/">
+				<h2 class="post-title">Are You A Researcher?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 13, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/transcribing-is-difficult-work/">
+				<h2 class="post-title">Transcribing Is Difficult Work</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Apr 5, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/where-in-the-world-is-the-whaleman/">
+				<h2 class="post-title">Where In The World Is The Whaleman?</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 30, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/32614-the-power-of-the-image/">
+				<h2 class="post-title">3/26/14: The Power of the Image</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 28, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/one-short-day-in-the-archives/">
+				<h2 class="post-title">One Short Day in the Archives</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 23, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-not-so-elusive-whaleman/">
+				<h2 class="post-title">The (Not-So) Elusive Whaleman</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 15, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-funny-thing-happened-on-the-way-to-the-archives/">
+				<h2 class="post-title">A Funny Thing Happened On The Way To The Archives</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 9, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/productivity/">
+				<h2 class="post-title">Productivity!</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 4, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/if-research-was-a-plane-nobody-would-get-on/">
+				<h2 class="post-title">If Research Was A Plane, Nobody Would Get On.</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Mar 2, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/the-elusive-whaleman/">
+				<h2 class="post-title">The Elusive Whaleman</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 23, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/omeka/">
+				<h2 class="post-title">Omeka!</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 19, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/a-failed-challenge/">
+				<h2 class="post-title">A Failed Challenge</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 14, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/21214-to-the-lab/">
+				<h2 class="post-title">2/12/14: To The Lab!</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 13, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/perspectives/">
+				<h2 class="post-title">Perspectives</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 9, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/adventures-in-microfilm/">
+				<h2 class="post-title">Adventures in Microfilm</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 2, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/rev-mr-thurbers-poem-to-the-seamens-bethel/">
+				<h2 class="post-title">Rev. Mr. Thurber&amp;#8217;s Poem to the Seamen&amp;#8217;s Bethel</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Feb 1, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/1910census/">
+				<h2 class="post-title">My Experience with the 1910 Census</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 25, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/i-met-with-prof-miller-this-afternoon-to-complete/">
+				<h2 class="post-title">I Met With Prof Miller This Afternoon To Complete</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 21, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li><li><div class="post-meta">
+			<a class="post-link" href="/texture/highlights/my-final-assignment/">
+				<h2 class="post-title">My Final Assignment</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>Jan 17, 2014</div>
+		</div>
+		<div class="post"></div>
+	</li></ul>
+		</div>
+	</main></body>
 </html>

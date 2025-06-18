@@ -1,61 +1,46 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+title: Emily Esten
+author: eastofesten
+email: estenemily+website@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Personal website of Emily Esten
+show_excerpts: false # set to true to show excerpts on the homepage
+url: "https://emilyesten.com"
 
-# Permalinks
-permalink:        /blog/:categories/:year-:month-:day-:title/
-
-# Setup
-title:            Emily Esten
-tagline:          digital projects for the public
-description:
-url:              https://emilyesten.com
-
-paginate:         10
-paginate_path: 	  blog/page:num
-
-# Sass settings
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
-  sass_dir: assets/css/_scss
-  style: compressed
+  sass_dir: _sass
 
-# Full URL for indexing
-url: https://emilyesten.com
+permalink: /posts/:title/
+texture:
+  title: Emily Esten
+  tagline: digital projects for the public
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: true
+  navigation:
+    - title: Home
+      url: "/"
+    #- title: CV
+     # url: "/cv"
+  showPicker: false
 
-#Google Services
-google_analytics: UA-151637703-1
+  # generate social links in footer
+  social_links:
+    github:  eastofesten
+    linkedIn: in/emilyesten
+    bsky: estene.bsky.social
+    arts: "https://www.broadstreetreview.com/about/people/emily-esten"
+    rss: rss
+ 
 
-# Plugins
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+
+# Build settings
+# theme: texture
+
 plugins:
-  - jekyll-paginate
-  - jekyll-redirect-from
-
-# Markdown
-kramdown:
-  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-# Collections
-collections:
-  work:
-    output: true 
-    permalink: work/:path/
-  tags:
-    output: true 
-    permalink: tag/:path/
-
-# Excludes
-exclude:
-  - CNAME
-  - LICENSE.md
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-seo-tag
+#  - jekyll-feed
