@@ -3,20 +3,14 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm Emily Esten.
+# **Emily Esten** (they/them)
 
 ![Image of Emily Esten](/assets/img/Esten-2020-headshot.jpg){:class="selfie"}
 
-Hi, My name is **Emily Esten**, and I’m currently the Customer Success Manager at [Knowledge Futures](https://www.knowledgefutures.org/).
+Emily Esten (they/them) brings documentation, training, and coding together to help others succeed. In Esten’s varied work experience - from project lead to curator, educator to site developer - their primary focus has been shaping collaborations, training, and programming for community-oriented tech work.
 
-In my varied work experience - from project lead to curator, educator to site developer - my primary focus has been engaging audiences, content, and tools to build better research and teaching communities. I’ve played an active role in shaping collaborations, training, and programming around digital tools for scholarly communication. 
+Emily previously worked at Knowledge Futures and University of Pennsylvania Libraries. They currently serve as a representative on the Executive Council for the Association for COmputers and the Humanities. Previously, they served as Director of Communications for the National EMP Network. In addition to their day-to-day work, I've done freelance site developmemt and contribute to *Broad Street Review*. 
 
-In addition to my day-to-day work, I've done freelance site developmemt for [Contingent Magazine](https://contingentmagazine.org/) and [Journey75 at the Mark Twain House & Museum](https://journey75.org/). I previously served as Director of Communications for the [National Emerging Museum Professionals Network](https://nationalempnetwork.org/).
+Contact them at estenemily+website at gmail dot com or message them on [Linkedin](https://www.linkedin.com/in/emilyesten/). 
 
 
-On this site, you can do the following:
-- check out some of my [digital](/digital) work
-- see some of my [public-engaging work](/public)
-- [review my CV](/cv)
-- read my [writing](/writing) elsewhere
-- learn about my past and present [projects](/projects)
