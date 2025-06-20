@@ -3,7 +3,7 @@
 ## To-Do List
 - [ ] Add CV page (probably with a different CV & projects list)
 - [ ] Add new blog page (for going forward - widlw)
-- [ ] Fix bsky & broad street review links in the header (i think the icons just aren't being pulled in properly)
+- [x] Fix bsky & broad street review links in the header (i think the icons just aren't being pulled in properly)
 
 ## Credit
 
