@@ -22,7 +22,7 @@ texture:
     - title: Home
       url: "/"
     - title: CV
-      url: "/assets/files/esten-cv.pdf"
+      url: "/assets/files/esten_cv.pdf"
   showPicker: false
 
   # generate social links in footer
